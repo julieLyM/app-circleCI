@@ -5,10 +5,6 @@ import { sum } from './App.js';
 
 test('renders learn react link', () => {
   const { getByText } = render(<App />);
-  const linkElement = getByText(/learn react/i);
+  const linkElement = getByText(/submit/i);
   expect(linkElement).toBeInTheDocument();
-});
-
-test('Sum 1 + 1 should be equal to 2', () => {
-  expect(sum(1, 1)).toBe(2);
 });

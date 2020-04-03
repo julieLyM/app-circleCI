@@ -9,4 +9,5 @@ const toAdd = (req, res) => {
 
 module.exports = {
   toAdd,
+  sum,
 };
